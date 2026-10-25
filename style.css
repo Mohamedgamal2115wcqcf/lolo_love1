@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Tahoma, Arial, sans-serif;
+  background: linear-gradient(135deg, #301044, #702b80, #d88fc5);
+  background-attachment: fixed;
+  color: #fff;
+  text-align: center;
+  line-height: 2;
+}
+
+.container {
+  max-width: 760px;
+  margin: 35px auto;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.09);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 24px;
+  padding: 25px;
+  margin: 20px 0;
+  box-shadow: 0 8px 30px rgba(22, 5, 30, 0.3);
+}
+
+h1, h2 {
+  color: #ffd5f0;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.heart {
+  font-size: 45px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  margin: 15px auto;
+  padding: 13px;
+  border-radius: 12px;
+  border: 1px solid #e9b4df;
+  font-size: 17px;
+  text-align: center;
+}
+
+button {
+  background: #f5b5e0;
+  color: #48164e;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 25px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ffd5f0;
+}
+
+.hidden {
+  display: none;
+}
+
+#error {
+  color: #ffd1dc;
+}
+
+.music-card audio {
+  display: block;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.note {
+  font-size: 13px;
+  opacity: 0.85;
+}
+
+@media (max-width: 500px) {
+  body {
+    padding: 10px;
+  }
+
+  .container {
+    margin: 10px auto;
+  }
+
+  .card {
+    padding: 18px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+}
